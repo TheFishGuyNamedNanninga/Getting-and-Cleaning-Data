@@ -83,15 +83,3 @@ SecondDataSet<-SecondDataSet[order(SecondDataSet$Subject,SecondDataSet$Activity)
 
 #Save this tidy dataset to local file
 write.table(SecondDataSet, file = "tidydata.txt",row.name=FALSE)
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
